@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c l | past -s -d ' '
+cut -c1 | paste -s -d '' | sed 's/./&\n/g'
